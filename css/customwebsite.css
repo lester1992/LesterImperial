@@ -1,0 +1,64 @@
+body {
+    padding-top: 56px;
+    background-color: rgb(220,220,220);
+}
+
+.navbar {
+    background-color: rgb(0,0,0);
+}
+.navbar-toggler {
+    border-color: rgb(212,175,55);
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(212,175,55, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-brand {
+    color: rgb(212,175,55);
+    font-family: 'Share Tech Mono';
+    font-size: 22pt;
+}
+    .navbar-brand:hover {
+        color: rgb(212,175,55);
+        text-shadow: 1px 1px 4px rgb(212,175,55);
+    }
+.nav-link {
+    color: rgb(212,175,55);
+    font-weight: bold;
+    font-family: 'Orbitron';
+}
+
+    .nav-link:hover {
+        color: rgb(212,175,55);
+        text-shadow: 1px 1px 4px rgb(212,175,55);
+    }
+
+    .btn {
+        border-radius:0;
+    }
+.btn-primary {
+    background-color: rgb(0,0,0);
+    border-color: rgb(0,0,0);
+    font-family: 'Acme';
+}
+    .btn-primary:hover {
+        background-color: rgba(0,0,0, 0.9);
+        border-color: rgba(212,175,55, 0.7);
+        color: rgb(212,175,55);
+    }
+    .btn-primary:active {
+        background-color: rgba(0,0,0, 0.9);
+        border-color: rgba(212,175,55, 0.7);
+        color: rgb(212,175,55);
+    }
+.card-title {
+    color: rgb(212,175,55);
+    font-weight: bold;
+    font-family: 'Orbitron';    
+}
+.footer-custom {
+    background-color: rgb(0,0,0);    
+}
+    .footer-custom p {
+        color: rgb(212,175,55);
+        font-family: 'Orbitron';
+    }
